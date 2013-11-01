@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require_relative 'pcr'
 
 module Qu
   module Pcr  
