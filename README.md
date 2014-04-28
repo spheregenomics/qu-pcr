@@ -1,6 +1,6 @@
 # Qu::Pcr
 
-TODO: Write a gem description
+A package for PCR, including primers, products, primer3 parser, virtual electrophoresis, etc.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+mobility = Qu::Pcr::VirtualGel.cal_mobility(size)
 
 ## Contributing
 

@@ -1,8 +1,9 @@
 require 'qu/utils'
 require 'qu/cmdwrapper'
-require "qu/pcr/version"
-require "qu/pcr/primer3"
-require "qu/pcr/primer3_parameters"
+
+require_relative "pcr/version"
+require_relative "pcr/primer3"
+require_relative "pcr/primer3_parameters"
 
 module Qu
   module Pcr
