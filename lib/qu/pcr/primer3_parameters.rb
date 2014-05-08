@@ -74,9 +74,9 @@ module Qu
 			:PRIMER_OPT_GC,
 			:PRIMER_MAX_GC,
 			:PRIMER_MAX_POLY_X,
-			:PRIMER_MAX_HAIRPIN_TH,
-			:PRIMER_MAX_SELF_ANY_TH,
-			:PRIMER_MAX_SELF_END_TH,
+			# :PRIMER_MAX_HAIRPIN_TH,  # I think it's no needed, Wubin Qu [2014-5-8]
+			# :PRIMER_MAX_SELF_ANY_TH,
+			# :PRIMER_MAX_SELF_END_TH,
     ]
   end
 end
